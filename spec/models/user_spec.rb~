@@ -110,7 +110,7 @@ describe User do
   end
   
   describe "when password confirmation is nill" do
-   before { @user.passowrd_confirmation = nil }
+   before { @user.password_confirmation = nil }
    it{ should_not be_valid }
   end
   
